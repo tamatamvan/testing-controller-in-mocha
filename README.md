@@ -8,6 +8,25 @@ This simple blog engine will only have two models, user and article. It's built 
 ## File Structure
 
 ```
+.
+├── README.md
+├── app.js
+├── bin
+│   └── www
+├── controllers
+│   ├── apiArticleController.js
+│   └── apiUserController.js
+├── models
+│   ├── articles.js
+│   └── users.js
+├── package.json
+├── routes
+│   ├── apiArticle.js
+│   ├── apiUsers.js
+│   └── index.js
+└── test
+    ├── apiArticle.test.js
+    └── apiUser.test.js
 ```
 
 ## package.json
